@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-29T16:58:01 IST" name="Default suite" finished-at="2023-11-29T16:58:05 IST" duration-ms="3720">
+    <groups>
+    </groups>
+    <test started-at="2023-11-29T16:58:01 IST" name="Default test" finished-at="2023-11-29T16:58:05 IST" duration-ms="3720">
+      <class name="com.tmobile.tests.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:01 IST" name="setUp" finished-at="2023-11-29T16:58:05 IST" duration-ms="3247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompanyLogo()[pri:1, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testCompanyLogo" finished-at="2023-11-29T16:58:05 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompanyLogo -->
+        <test-method signature="testPlans()[pri:2, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testPlans" finished-at="2023-11-29T16:58:05 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPlans -->
+        <test-method signature="testJoinUs()[pri:3, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testJoinUs" finished-at="2023-11-29T16:58:05 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJoinUs -->
+        <test-method signature="testCart()[pri:4, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testCart" finished-at="2023-11-29T16:58:05 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method signature="testSearch()[pri:5, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testSearch" finished-at="2023-11-29T16:58:05 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testMyAccount()[pri:6, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testMyAccount" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMyAccount -->
+        <test-method signature="testSpain()[pri:7, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testSpain" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSpain -->
+        <test-method signature="testEnglish()[pri:8, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testEnglish" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnglish -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="tearDown" finished-at="2023-11-29T16:58:05 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tmobile.tests.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
