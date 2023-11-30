@@ -61,3 +61,113 @@
 2023-11-29 16:58:05,277 - t-mobile -INFO - my account is displayed on home page
 2023-11-29 16:58:05,279 - t-mobile -INFO - click on spain
 2023-11-29 16:58:05,306 - t-mobile -INFO - click on english
+2023-11-30 17:02:02,128 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:02:04,391 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:02:04,403 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:02:05,783 - t-mobile -INFO - enter the address
+2023-11-30 17:02:25,925 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:02:46,099 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:03:06,506 - t-mobile -INFO - enter the first name
+2023-11-30 17:03:26,670 - t-mobile -INFO - enter the last name
+2023-11-30 17:03:46,850 - t-mobile -INFO - enter the phone no
+2023-11-30 17:04:07,043 - t-mobile -INFO - enter the email
+2023-11-30 17:04:27,587 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:05:47,247 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:06:31,391 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:07:19,010 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:08:05,174 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:10:36,066 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:10:37,584 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:10:37,594 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:10:38,989 - t-mobile -INFO - enter the address
+2023-11-30 17:10:52,163 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:10:52,196 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:10:52,254 - t-mobile -INFO - enter the first name
+2023-11-30 17:10:52,291 - t-mobile -INFO - enter the last name
+2023-11-30 17:10:52,314 - t-mobile -INFO - enter the phone no
+2023-11-30 17:10:52,345 - t-mobile -INFO - enter the email
+2023-11-30 17:10:52,396 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:12:30,739 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:12:32,496 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:12:32,500 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:12:32,883 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:12:32,887 - t-mobile -INFO - enter the address
+2023-11-30 17:12:36,200 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:12:37,616 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:12:37,940 - t-mobile -INFO - enter the first name
+2023-11-30 17:12:58,235 - t-mobile -INFO - enter the last name
+2023-11-30 17:13:18,718 - t-mobile -INFO - enter the phone no
+2023-11-30 17:13:39,152 - t-mobile -INFO - enter the email
+2023-11-30 17:13:59,601 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:15:29,629 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:15:31,549 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:15:31,557 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:15:32,279 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:15:32,282 - t-mobile -INFO - enter the address
+2023-11-30 17:15:35,549 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:15:36,911 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:15:37,229 - t-mobile -INFO - enter the first name
+2023-11-30 17:15:57,652 - t-mobile -INFO - enter the last name
+2023-11-30 17:15:57,682 - t-mobile -INFO - enter the phone no
+2023-11-30 17:15:57,698 - t-mobile -INFO - enter the email
+2023-11-30 17:15:57,715 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:17:26,911 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:17:28,325 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:17:28,331 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:17:29,124 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:17:29,129 - t-mobile -INFO - enter the address
+2023-11-30 17:17:32,412 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:17:32,440 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:17:32,791 - t-mobile -INFO - enter the first name
+2023-11-30 17:17:53,114 - t-mobile -INFO - enter the last name
+2023-11-30 17:17:53,910 - t-mobile -INFO - enter the phone no
+2023-11-30 17:17:53,952 - t-mobile -INFO - enter the email
+2023-11-30 17:17:53,994 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:18:04,567 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:18:06,058 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:18:06,065 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:18:06,940 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:18:06,944 - t-mobile -INFO - enter the address
+2023-11-30 17:18:10,233 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:18:10,264 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:18:10,630 - t-mobile -INFO - enter the first name
+2023-11-30 17:18:28,779 - t-mobile -INFO - enter the last name
+2023-11-30 17:18:28,825 - t-mobile -INFO - enter the phone no
+2023-11-30 17:18:28,850 - t-mobile -INFO - enter the email
+2023-11-30 17:18:28,885 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:19:48,049 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:19:49,898 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:19:49,905 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:19:50,778 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:19:50,784 - t-mobile -INFO - enter the address
+2023-11-30 17:19:57,113 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:19:57,146 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:19:57,484 - t-mobile -INFO - enter the first name
+2023-11-30 17:20:17,761 - t-mobile -INFO - enter the last name
+2023-11-30 17:20:32,809 - t-mobile -INFO - enter the phone no
+2023-11-30 17:20:32,989 - t-mobile -INFO - enter the email
+2023-11-30 17:20:33,094 - t-mobile -INFO - click on join the waitlist
+2023-11-30 17:39:34,102 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 17:39:36,393 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 17:39:36,397 - t-mobile -INFO - click on Check Availability
+2023-11-30 17:39:37,874 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 17:39:37,879 - t-mobile -INFO - enter the address
+2023-11-30 17:39:46,450 - t-mobile -INFO - click on Address Availability
+2023-11-30 17:39:46,499 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 17:39:46,929 - t-mobile -INFO - enter the first name
+2023-11-30 17:39:58,496 - t-mobile -INFO - enter the last name
+2023-11-30 17:39:58,549 - t-mobile -INFO - enter the phone no
+2023-11-30 17:39:58,572 - t-mobile -INFO - enter the email
+2023-11-30 17:39:58,604 - t-mobile -INFO - click on join the waitlist
+2023-11-30 18:06:00,433 - t-mobile -INFO - go to plans and click on home internet plan
+2023-11-30 18:06:02,266 - t-mobile -INFO - sucessfully navigate to Home Internet page
+2023-11-30 18:06:02,270 - t-mobile -INFO - click on Check Availability
+2023-11-30 18:06:03,314 - t-mobile -INFO - sucessfully navigate to Home Internet Availability Page
+2023-11-30 18:06:03,314 - t-mobile -INFO - enter the address
+2023-11-30 18:06:55,226 - t-mobile -INFO - click on Address Availability
+2023-11-30 18:06:55,281 - t-mobile -INFO - actual and expected alert messgae is matched
+2023-11-30 18:06:55,577 - t-mobile -INFO - enter the first name
+2023-11-30 18:06:57,077 - t-mobile -INFO - enter the last name
+2023-11-30 18:06:57,253 - t-mobile -INFO - enter the phone no
+2023-11-30 18:06:57,326 - t-mobile -INFO - enter the email
+2023-11-30 18:06:57,405 - t-mobile -INFO - click on join the waitlist

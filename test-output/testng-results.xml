@@ -1,53 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T16:58:01 IST" name="Default suite" finished-at="2023-11-29T16:58:05 IST" duration-ms="3720">
+  <suite started-at="2023-11-30T18:05:56 IST" name="Default suite" finished-at="2023-11-30T18:06:59 IST" duration-ms="62731">
     <groups>
     </groups>
-    <test started-at="2023-11-29T16:58:01 IST" name="Default test" finished-at="2023-11-29T16:58:05 IST" duration-ms="3720">
-      <class name="com.tmobile.tests.HomeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:01 IST" name="setUp" finished-at="2023-11-29T16:58:05 IST" duration-ms="3247" status="PASS">
+    <test started-at="2023-11-30T18:05:56 IST" name="Default test" finished-at="2023-11-30T18:06:59 IST" duration-ms="62731">
+      <class name="com.tmobile.tests.Plans_HomeInternetPlanTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:05:56 IST" name="setUp" finished-at="2023-11-30T18:06:00 IST" duration-ms="4094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCompanyLogo()[pri:1, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testCompanyLogo" finished-at="2023-11-29T16:58:05 IST" duration-ms="53" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCompanyLogo -->
-        <test-method signature="testPlans()[pri:2, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testPlans" finished-at="2023-11-29T16:58:05 IST" duration-ms="28" status="PASS">
+        <test-method signature="testPlans()[pri:1, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:00 IST" name="testPlans" finished-at="2023-11-30T18:06:02 IST" duration-ms="1726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPlans -->
-        <test-method signature="testJoinUs()[pri:3, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testJoinUs" finished-at="2023-11-29T16:58:05 IST" duration-ms="52" status="PASS">
+        <test-method signature="testHomeInternetpage()[pri:2, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:02 IST" name="testHomeInternetpage" finished-at="2023-11-30T18:06:02 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJoinUs -->
-        <test-method signature="testCart()[pri:4, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testCart" finished-at="2023-11-29T16:58:05 IST" duration-ms="20" status="PASS">
+        </test-method> <!-- testHomeInternetpage -->
+        <test-method signature="testCheckAvailability()[pri:3, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:02 IST" name="testCheckAvailability" finished-at="2023-11-30T18:06:03 IST" duration-ms="938" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCart -->
-        <test-method signature="testSearch()[pri:5, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testSearch" finished-at="2023-11-29T16:58:05 IST" duration-ms="21" status="PASS">
+        </test-method> <!-- testCheckAvailability -->
+        <test-method signature="testHomeInternetAvailabilityPage()[pri:4, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:03 IST" name="testHomeInternetAvailabilityPage" finished-at="2023-11-30T18:06:03 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearch -->
-        <test-method signature="testMyAccount()[pri:6, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testMyAccount" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+        </test-method> <!-- testHomeInternetAvailabilityPage -->
+        <test-method signature="testAddress()[pri:5, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:03 IST" name="testAddress" finished-at="2023-11-30T18:06:55 IST" duration-ms="51896" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMyAccount -->
-        <test-method signature="testSpain()[pri:7, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testSpain" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+        </test-method> <!-- testAddress -->
+        <test-method signature="testAddressAvailability()[pri:6, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAddressAvailability" finished-at="2023-11-30T18:06:55 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSpain -->
-        <test-method signature="testEnglish()[pri:8, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="testEnglish" finished-at="2023-11-29T16:58:05 IST" duration-ms="23" status="PASS">
+        </test-method> <!-- testAddressAvailability -->
+        <test-method signature="testAlertMessage()[pri:7, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAlertMessage" finished-at="2023-11-30T18:06:55 IST" duration-ms="29" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEnglish -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.HomeTest@74e28667]" started-at="2023-11-29T16:58:05 IST" name="tearDown" finished-at="2023-11-29T16:58:05 IST" duration-ms="150" status="PASS">
+        </test-method> <!-- testAlertMessage -->
+        <test-method signature="testAddressSignUpPage()[pri:8, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAddressSignUpPage" finished-at="2023-11-30T18:06:55 IST" duration-ms="257" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.tmobile.tests.Plans_HomeInternetPlanTest.testAddressSignUpPage(Plans_HomeInternetPlanTest.java:120)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddressSignUpPage -->
+        <test-method signature="testFirstName()[pri:9, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testFirstName" finished-at="2023-11-30T18:06:57 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstName -->
+        <test-method signature="testLastName()[pri:10, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testLastName" finished-at="2023-11-30T18:06:57 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastName -->
+        <test-method signature="testPhone()[pri:11, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testPhone" finished-at="2023-11-30T18:06:57 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhone -->
+        <test-method signature="testEmail()[pri:12, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testEmail" finished-at="2023-11-30T18:06:57 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmail -->
+        <test-method signature="testJoin()[pri:13, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testJoin" finished-at="2023-11-30T18:06:58 IST" duration-ms="1332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJoin -->
+        <test-method signature="testWaitlistPage()[pri:14, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:58 IST" name="testWaitlistPage" finished-at="2023-11-30T18:06:58 IST" duration-ms="151" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.tmobile.tests.Plans_HomeInternetPlanTest.testWaitlistPage(Plans_HomeInternetPlanTest.java:192)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWaitlistPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:58 IST" name="tearDown" finished-at="2023-11-30T18:06:59 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tmobile.tests.HomeTest -->
+      </class> <!-- com.tmobile.tests.Plans_HomeInternetPlanTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
