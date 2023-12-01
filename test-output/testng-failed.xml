@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tmobile.tests.Plans_HomeInternetPlanTest">
+      <class name="com.tmobile.tests.PhonesAndDevices_TabletsTest">
         <methods>
-          <include name="testWaitlistPage"/>
-          <include name="tearDown"/>
-          <include name="testAddressSignUpPage"/>
           <include name="setUp"/>
+          <include name="testSamsungTabletsPage"/>
+          <include name="testTabletsPage"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.tmobile.tests.Plans_HomeInternetPlanTest -->
+      </class> <!-- com.tmobile.tests.PhonesAndDevices_TabletsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

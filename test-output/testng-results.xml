@@ -1,45 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
+<testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T18:05:56 IST" name="Default suite" finished-at="2023-11-30T18:06:59 IST" duration-ms="62731">
+  <suite started-at="2023-12-01T18:35:08 IST" name="Default suite" finished-at="2023-12-01T18:37:35 IST" duration-ms="147049">
     <groups>
     </groups>
-    <test started-at="2023-11-30T18:05:56 IST" name="Default test" finished-at="2023-11-30T18:06:59 IST" duration-ms="62731">
-      <class name="com.tmobile.tests.Plans_HomeInternetPlanTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:05:56 IST" name="setUp" finished-at="2023-11-30T18:06:00 IST" duration-ms="4094" status="PASS">
+    <test started-at="2023-12-01T18:35:08 IST" name="Default test" finished-at="2023-12-01T18:37:35 IST" duration-ms="147049">
+      <class name="com.tmobile.tests.PhonesAndDevices_TabletsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:35:08 IST" name="setUp" finished-at="2023-12-01T18:35:12 IST" duration-ms="4608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testPlans()[pri:1, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:00 IST" name="testPlans" finished-at="2023-11-30T18:06:02 IST" duration-ms="1726" status="PASS">
+        <test-method signature="testPhoneAndDevices()[pri:1, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:35:12 IST" name="testPhoneAndDevices" finished-at="2023-12-01T18:35:33 IST" duration-ms="20368" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPlans -->
-        <test-method signature="testHomeInternetpage()[pri:2, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:02 IST" name="testHomeInternetpage" finished-at="2023-11-30T18:06:02 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHomeInternetpage -->
-        <test-method signature="testCheckAvailability()[pri:3, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:02 IST" name="testCheckAvailability" finished-at="2023-11-30T18:06:03 IST" duration-ms="938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCheckAvailability -->
-        <test-method signature="testHomeInternetAvailabilityPage()[pri:4, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:03 IST" name="testHomeInternetAvailabilityPage" finished-at="2023-11-30T18:06:03 IST" duration-ms="100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHomeInternetAvailabilityPage -->
-        <test-method signature="testAddress()[pri:5, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:03 IST" name="testAddress" finished-at="2023-11-30T18:06:55 IST" duration-ms="51896" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddress -->
-        <test-method signature="testAddressAvailability()[pri:6, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAddressAvailability" finished-at="2023-11-30T18:06:55 IST" duration-ms="62" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAddressAvailability -->
-        <test-method signature="testAlertMessage()[pri:7, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAlertMessage" finished-at="2023-11-30T18:06:55 IST" duration-ms="29" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAlertMessage -->
-        <test-method signature="testAddressSignUpPage()[pri:8, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testAddressSignUpPage" finished-at="2023-11-30T18:06:55 IST" duration-ms="257" status="FAIL">
+        </test-method> <!-- testPhoneAndDevices -->
+        <test-method signature="testTabletsPage()[pri:2, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:35:33 IST" name="testTabletsPage" finished-at="2023-12-01T18:35:33 IST" duration-ms="163" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -50,7 +26,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at com.tmobile.tests.Plans_HomeInternetPlanTest.testAddressSignUpPage(Plans_HomeInternetPlanTest.java:120)
+at com.tmobile.tests.PhonesAndDevices_TabletsTest.testTabletsPage(PhonesAndDevices_TabletsTest.java:48)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,28 +60,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAddressSignUpPage -->
-        <test-method signature="testFirstName()[pri:9, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:55 IST" name="testFirstName" finished-at="2023-11-30T18:06:57 IST" duration-ms="1493" status="PASS">
+        </test-method> <!-- testTabletsPage -->
+        <test-method signature="testDeals()[pri:3, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:35:33 IST" name="testDeals" finished-at="2023-12-01T18:35:53 IST" duration-ms="20287" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFirstName -->
-        <test-method signature="testLastName()[pri:10, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testLastName" finished-at="2023-11-30T18:06:57 IST" duration-ms="172" status="PASS">
+        </test-method> <!-- testDeals -->
+        <test-method signature="testBrands()[pri:4, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:35:53 IST" name="testBrands" finished-at="2023-12-01T18:36:13 IST" duration-ms="20222" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLastName -->
-        <test-method signature="testPhone()[pri:11, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testPhone" finished-at="2023-11-30T18:06:57 IST" duration-ms="73" status="PASS">
+        </test-method> <!-- testBrands -->
+        <test-method signature="testOperatingSystem()[pri:5, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:36:13 IST" name="testOperatingSystem" finished-at="2023-12-01T18:36:34 IST" duration-ms="20264" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPhone -->
-        <test-method signature="testEmail()[pri:12, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testEmail" finished-at="2023-11-30T18:06:57 IST" duration-ms="79" status="PASS">
+        </test-method> <!-- testOperatingSystem -->
+        <test-method signature="testSortBy()[pri:6, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:36:34 IST" name="testSortBy" finished-at="2023-12-01T18:36:54 IST" duration-ms="20214" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEmail -->
-        <test-method signature="testJoin()[pri:13, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:57 IST" name="testJoin" finished-at="2023-11-30T18:06:58 IST" duration-ms="1332" status="PASS">
+        </test-method> <!-- testSortBy -->
+        <test-method signature="testHighestRating()[pri:7, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:36:54 IST" name="testHighestRating" finished-at="2023-12-01T18:37:14 IST" duration-ms="20196" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testJoin -->
-        <test-method signature="testWaitlistPage()[pri:14, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:58 IST" name="testWaitlistPage" finished-at="2023-11-30T18:06:58 IST" duration-ms="151" status="FAIL">
+        </test-method> <!-- testHighestRating -->
+        <test-method signature="testSamsung()[pri:8, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:37:14 IST" name="testSamsung" finished-at="2023-12-01T18:37:34 IST" duration-ms="20240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSamsung -->
+        <test-method signature="testSamsungTabletsPage()[pri:9, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:37:34 IST" name="testSamsungTabletsPage" finished-at="2023-12-01T18:37:34 IST" duration-ms="179" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -116,7 +96,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at com.tmobile.tests.Plans_HomeInternetPlanTest.testWaitlistPage(Plans_HomeInternetPlanTest.java:192)
+at com.tmobile.tests.PhonesAndDevices_TabletsTest.testSamsungTabletsPage(PhonesAndDevices_TabletsTest.java:132)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -150,12 +130,12 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWaitlistPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.Plans_HomeInternetPlanTest@5149d738]" started-at="2023-11-30T18:06:58 IST" name="tearDown" finished-at="2023-11-30T18:06:59 IST" duration-ms="134" status="PASS">
+        </test-method> <!-- testSamsungTabletsPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.PhonesAndDevices_TabletsTest@1cf6d1be]" started-at="2023-12-01T18:37:34 IST" name="tearDown" finished-at="2023-12-01T18:37:35 IST" duration-ms="199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tmobile.tests.Plans_HomeInternetPlanTest -->
+      </class> <!-- com.tmobile.tests.PhonesAndDevices_TabletsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
