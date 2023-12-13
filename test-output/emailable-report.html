@@ -9,52 +9,16 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">98,990</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">57,627</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.tmobile.tests.Deals_SamsungTest</td><td><a href="#m0">testSamsungGalaxyPage</a></td><td rowspan="1">1701520415925</td><td rowspan="1">219</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.tmobile.tests.Deals_SamsungTest</td><td><a href="#m1">testBroadwayStore</a></td><td rowspan="1">1701520477035</td><td rowspan="1">20259</td></tr><tr class="passedeven"><td><a href="#m2">testCity</a></td><td rowspan="1">1701520456766</td><td rowspan="1">20269</td></tr><tr class="passedeven"><td><a href="#m3">testDeals</a></td><td rowspan="1">1701520410062</td><td rowspan="1">4265</td></tr><tr class="passedeven"><td><a href="#m4">testLocation</a></td><td rowspan="1">1701520436480</td><td rowspan="1">20282</td></tr><tr class="passedeven"><td><a href="#m5">testPhones</a></td><td rowspan="1">1701520414383</td><td rowspan="1">213</td></tr><tr class="passedeven"><td><a href="#m6">testSamsungGalaxy</a></td><td rowspan="1">1701520414603</td><td rowspan="1">1322</td></tr><tr class="passedeven"><td><a href="#m7">testSamsungPage</a></td><td rowspan="1">1701520414335</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m8">testSee2Deals</a></td><td rowspan="1">1701520416149</td><td rowspan="1">20322</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">com.tmobile.tests.Coverage_RuralAndSmallTownsTest</td><td><a href="#m0">testBusinessPlan</a></td><td rowspan="1">1702470059236</td><td rowspan="1">41964</td></tr><tr class="passedeven"><td><a href="#m1">testBusinessPlanPage</a></td><td rowspan="1">1702470101202</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m2">testCoverage</a></td><td rowspan="1">1702470052374</td><td rowspan="1">6809</td></tr><tr class="passedeven"><td><a href="#m3">testCustomerInfo</a></td><td rowspan="1">1702470101436</td><td rowspan="1">1988</td></tr><tr class="passedeven"><td><a href="#m4">testLetsTalk</a></td><td rowspan="1">1702470101253</td><td rowspan="1">183</td></tr><tr class="passedeven"><td><a href="#m5">testSmallTownRuralAreaPage</a></td><td rowspan="1">1702470059191</td><td rowspan="1">42</td></tr><tr class="passedeven"><td><a href="#m6">testSubmit</a></td><td rowspan="1">1702470103425</td><td rowspan="1">137</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.tmobile.tests.Deals_SamsungTest#testSamsungGalaxyPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertTrue(Assert.java:56)
-	at org.testng.Assert.assertTrue(Assert.java:66)
-	at com.tmobile.tests.Deals_SamsungTest.testSamsungGalaxyPage(Deals_SamsungTest.java:84)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.tmobile.tests.Deals_SamsungTest#testBroadwayStore</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.tmobile.tests.Deals_SamsungTest#testCity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.tmobile.tests.Deals_SamsungTest#testDeals</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.tmobile.tests.Deals_SamsungTest#testLocation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.tmobile.tests.Deals_SamsungTest#testPhones</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">com.tmobile.tests.Deals_SamsungTest#testSamsungGalaxy</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">com.tmobile.tests.Deals_SamsungTest#testSamsungPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m8">com.tmobile.tests.Deals_SamsungTest#testSee2Deals</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testBusinessPlan</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testBusinessPlanPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testCoverage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testCustomerInfo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testLetsTalk</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testSmallTownRuralAreaPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.tmobile.tests.Coverage_RuralAndSmallTownsTest#testSubmit</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

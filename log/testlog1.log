@@ -249,3 +249,38 @@
 2023-12-02 18:03:56,482 [main] INFO t-mobile - click on location
 2023-12-02 18:04:16,766 [main] INFO t-mobile - enter the city name
 2023-12-02 18:04:37,035 [main] INFO t-mobile - click on Broadway Store
+2023-12-02 18:37:12,109 [main] INFO t-mobile - go to deals and click on samsung
+2023-12-02 18:37:16,426 [main] INFO t-mobile - sucessfully navigate to the samsung phone page
+2023-12-02 18:37:16,433 [main] INFO t-mobile - click on phones
+2023-12-02 18:37:16,778 [main] INFO t-mobile - click on Samsung Galaxy
+2023-12-02 18:37:40,844 [main] INFO t-mobile - click on See2Deals
+2023-12-02 18:37:40,859 [main] INFO t-mobile - click on location
+2023-12-02 18:37:40,873 [main] INFO t-mobile - enter the city name
+2023-12-02 18:37:40,883 [main] INFO t-mobile - click on Broadway Store
+2023-12-02 18:37:53,628 [main] INFO t-mobile - go to deals and click on samsung
+2023-12-02 18:37:58,171 [main] INFO t-mobile - sucessfully navigate to the samsung phone page
+2023-12-02 18:37:58,184 [main] INFO t-mobile - click on phones
+2023-12-02 18:37:58,556 [main] INFO t-mobile - click on Samsung Galaxy
+2023-12-02 18:38:01,332 [main] INFO t-mobile - click on See2Deals
+2023-12-02 18:38:21,566 [main] INFO t-mobile - click on location
+2023-12-02 18:38:41,759 [main] INFO t-mobile - enter the city name
+2023-12-02 18:39:01,966 [main] INFO t-mobile - click on Broadway Store
+2023-12-13 17:46:36,927 [main] INFO t-mobile - go to coverage and click on rural&small towns 
+2023-12-13 17:46:43,496 [main] INFO t-mobile - sucessfully navigate to the Small Town Rural Area Page
+2023-12-13 17:46:43,496 [main] INFO t-mobile - click on Business Plan
+2023-12-13 17:46:45,207 [main] INFO t-mobile - click on Lets Talk
+2023-12-13 17:47:05,549 [main] INFO t-mobile - enter the customer infromation
+2023-12-13 17:47:25,894 [main] INFO t-mobile - click on submit
+2023-12-13 17:49:18,064 [main] INFO t-mobile - go to coverage and click on rural&small towns 
+2023-12-13 17:49:23,808 [main] INFO t-mobile - sucessfully navigate to the Small Town Rural Area Page
+2023-12-13 17:49:23,808 [main] INFO t-mobile - click on Business Plan
+2023-12-13 17:49:25,481 [main] INFO t-mobile - click on Lets Talk
+2023-12-13 17:49:45,776 [main] INFO t-mobile - enter the customer infromation
+2023-12-13 17:49:46,777 [main] INFO t-mobile - click on submit
+2023-12-13 17:50:52,383 [main] INFO t-mobile - go to coverage and click on rural&small towns 
+2023-12-13 17:50:59,232 [main] INFO t-mobile - sucessfully navigate to the Small Town Rural Area Page
+2023-12-13 17:50:59,237 [main] INFO t-mobile - click on Business Plan
+2023-12-13 17:51:41,246 [main] INFO t-mobile - sucessfully navigate to the Business Plan Page
+2023-12-13 17:51:41,256 [main] INFO t-mobile - click on Lets Talk
+2023-12-13 17:51:41,447 [main] INFO t-mobile - enter the customer infromation
+2023-12-13 17:51:43,426 [main] INFO t-mobile - click on submit

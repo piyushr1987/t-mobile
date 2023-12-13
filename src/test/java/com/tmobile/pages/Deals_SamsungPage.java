@@ -24,7 +24,7 @@ public class Deals_SamsungPage extends BaseClass {
 	@FindBy(xpath = "//a[normalize-space()='Samsung']")
 	private WebElement samsung;
 
-	@FindBy(xpath = "//ul[@class='phx-shortcuts__list phx-shortcuts__list--nav']//li[2]//span[normalize-space()='Phones']")
+	@FindBy(xpath = "//span[normalize-space()='Phones']")
 	private WebElement phones;
 
 	@FindBy(xpath = "//div[@class='xpr-card__cta ']/a[@id='button-66478831bf']")
@@ -57,6 +57,8 @@ public class Deals_SamsungPage extends BaseClass {
 	}
 
 	public void clickOnPhones() {
+		Actions act = new Actions(driver);
+		act.moveToElement(phones).build().perform();
 		phones.click();
 	}
 
