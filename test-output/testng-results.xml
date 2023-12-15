@@ -1,49 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-13T17:50:46 IST" name="Default suite" finished-at="2023-12-13T17:51:43 IST" duration-ms="57627">
+  <suite started-at="2023-12-15T17:54:56 IST" name="Default suite" finished-at="2023-12-15T17:55:15 IST" duration-ms="18586">
     <groups>
     </groups>
-    <test started-at="2023-12-13T17:50:46 IST" name="Default test" finished-at="2023-12-13T17:51:43 IST" duration-ms="57627">
-      <class name="com.tmobile.tests.Coverage_RuralAndSmallTownsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:50:46 IST" name="setUp" finished-at="2023-12-13T17:50:52 IST" duration-ms="6083" status="PASS">
+    <test started-at="2023-12-15T17:54:56 IST" name="Default test" finished-at="2023-12-15T17:55:15 IST" duration-ms="18586">
+      <class name="com.tmobile.tests.JoinUsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:54:56 IST" name="setUp" finished-at="2023-12-15T17:55:00 IST" duration-ms="3771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCoverage()[pri:1, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:50:52 IST" name="testCoverage" finished-at="2023-12-13T17:50:59 IST" duration-ms="6809" status="PASS">
+        <test-method signature="testCoverage()[pri:1, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:00 IST" name="testCoverage" finished-at="2023-12-15T17:55:05 IST" duration-ms="4750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCoverage -->
-        <test-method signature="testSmallTownRuralAreaPage()[pri:2, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:50:59 IST" name="testSmallTownRuralAreaPage" finished-at="2023-12-13T17:50:59 IST" duration-ms="42" status="PASS">
+        <test-method signature="testTravelPage()[pri:2, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:05 IST" name="testTravelPage" finished-at="2023-12-15T17:55:05 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSmallTownRuralAreaPage -->
-        <test-method signature="testBusinessPlan()[pri:3, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:50:59 IST" name="testBusinessPlan" finished-at="2023-12-13T17:51:41 IST" duration-ms="41964" status="PASS">
+        </test-method> <!-- testTravelPage -->
+        <test-method signature="testOnTheRoad()[pri:3, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:05 IST" name="testOnTheRoad" finished-at="2023-12-15T17:55:05 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBusinessPlan -->
-        <test-method signature="testBusinessPlanPage()[pri:4, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:51:41 IST" name="testBusinessPlanPage" finished-at="2023-12-13T17:51:41 IST" duration-ms="45" status="PASS">
+        </test-method> <!-- testOnTheRoad -->
+        <test-method signature="testFindOutMore()[pri:4, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:05 IST" name="testFindOutMore" finished-at="2023-12-15T17:55:08 IST" duration-ms="2725" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBusinessPlanPage -->
-        <test-method signature="testLetsTalk()[pri:5, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:51:41 IST" name="testLetsTalk" finished-at="2023-12-13T17:51:41 IST" duration-ms="183" status="PASS">
+        </test-method> <!-- testFindOutMore -->
+        <test-method signature="testAAAMembershipPlanPage()[pri:5, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:08 IST" name="testAAAMembershipPlanPage" finished-at="2023-12-15T17:55:08 IST" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLetsTalk -->
-        <test-method signature="testCustomerInfo()[pri:6, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:51:41 IST" name="testCustomerInfo" finished-at="2023-12-13T17:51:43 IST" duration-ms="1988" status="PASS">
+        </test-method> <!-- testAAAMembershipPlanPage -->
+        <test-method signature="testShopPlan()[pri:6, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:08 IST" name="testShopPlan" finished-at="2023-12-15T17:55:10 IST" duration-ms="2369" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCustomerInfo -->
-        <test-method signature="testSubmit()[pri:7, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:51:43 IST" name="testSubmit" finished-at="2023-12-13T17:51:43 IST" duration-ms="137" status="PASS">
+        </test-method> <!-- testShopPlan -->
+        <test-method signature="testCellphonePlanPage()[pri:7, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:10 IST" name="testCellphonePlanPage" finished-at="2023-12-15T17:55:10 IST" duration-ms="40" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubmit -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.Coverage_RuralAndSmallTownsTest@75d3a5e0]" started-at="2023-12-13T17:51:43 IST" name="tearDown" finished-at="2023-12-13T17:51:43 IST" duration-ms="311" status="PASS">
+        </test-method> <!-- testCellphonePlanPage -->
+        <test-method signature="testMilitaryAndVeteran()[pri:8, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:10 IST" name="testMilitaryAndVeteran" finished-at="2023-12-15T17:55:14 IST" duration-ms="3844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMilitaryAndVeteran -->
+        <test-method signature="testGo5GNextMilitaryTitle()[pri:9, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:14 IST" name="testGo5GNextMilitaryTitle" finished-at="2023-12-15T17:55:14 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGo5GNextMilitaryTitle -->
+        <test-method signature="testSelectPhonePlan()[pri:10, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:14 IST" name="testSelectPhonePlan" finished-at="2023-12-15T17:55:14 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectPhonePlan -->
+        <test-method signature="testCartPage()[pri:11, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:14 IST" name="testCartPage" finished-at="2023-12-15T17:55:15 IST" duration-ms="218" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.tmobile.tests.JoinUsTest.testCartPage(JoinUsTest.java:156)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tmobile.tests.JoinUsTest@19e4653c]" started-at="2023-12-15T17:55:15 IST" name="tearDown" finished-at="2023-12-15T17:55:15 IST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.tmobile.tests.Coverage_RuralAndSmallTownsTest -->
+      </class> <!-- com.tmobile.tests.JoinUsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

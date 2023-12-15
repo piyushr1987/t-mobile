@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tmobile.tests.Coverage_RuralAndSmallTownsTest">
+      <class name="com.tmobile.tests.JoinUsTest">
         <methods>
-          <include name="testSubmit"/>
           <include name="tearDown"/>
-          <include name="testCustomerInfo"/>
+          <include name="testCartPage"/>
           <include name="setUp"/>
-          <include name="testBusinessPlanPage"/>
         </methods>
-      </class> <!-- com.tmobile.tests.Coverage_RuralAndSmallTownsTest -->
+      </class> <!-- com.tmobile.tests.JoinUsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
